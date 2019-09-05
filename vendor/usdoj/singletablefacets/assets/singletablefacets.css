@@ -1,0 +1,58 @@
+.stf-facet-pager {
+    padding: 0;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.stf-facet-pager li {
+    display: inline;
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+.stf-facet-pager li.active {
+    font-weight: bold;
+}
+
+.stf-facet-sort-link-desc:before {
+    content: "\25BC";
+}
+
+.stf-facet-sort-link-asc:before {
+    content: "\25B2";
+}
+
+.stf-facet-label {
+    font-size: 18px;
+}
+
+.stf-facet-search-results {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #bbb;
+}
+
+.stf-facet-search-results tbody tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+.stf-facet-dependent {
+    margin-left: 20px;
+}
+
+.stf-facet .facet-items {
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+.stf-facet-dependent .facet-items {
+    margin-top: 0;
+}
+
+.stf-facet-collapse-trigger {
+    cursor: pointer;
+}
+
+.stf-facet-items .stf-facet-collapse-trigger {
+    margin-top: 5px;
+}
